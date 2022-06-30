@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+
+body{
+    background-color: #282B31;
+    margin: 0px;
+    padding: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+
+}
+.upNavegation{
+    color:white;
+    width: 100%;
+    height: 85px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+/* leftPart  nav */
+.leftPart{
+    width: 15rem;
+}
+.upNavegation .leftPart>img{
+    margin-left: 15px;
+    width: 175px;
+}
+/* centerPart nav */
+.centerPart{display: grid
+    ;
+    width: 36rem;
+}
+.centerPart>span{
+    text-transform: uppercase;
+    color:#ECD26F;
+    font-weight:600;
+    font-size: smaller;
+}
+.centerPart div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.centerPart div a {
+    font-size: medium;
+    font-weight: 600;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+#btn-spark{
+    border: none;
+    background:transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#btn-spark>:hover{
+    font-size: small;
+    color: #c9cdca;
+}
+#btn-spark>span{
+    display: flex;
+    font-weight: 800;
+    color: #8b8e98;
+}
+#btn-spark #iconMenuD{
+    margin-left: 8px;
+    font-weight: 200;
+    color: white;
+}
+/* rigthPart nav */
+.rigthPart{  
+    width: 30rem;  
+    display: flex;
+    gap: 3px;
+    justify-content: space-around;
+    align-items: center;
+}
+.rigthPart .btnCreate{
+    border: none;
+    color: white;
+    background-color: #494c55;
+    border-radius: 4px;
+    width: 7rem;
+    height: 50px;
+    cursor: pointer;
+}
+.rigthPart .btnCreate span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rigthPart .btnCreate span span{
+    color: #46d367;
+    font-size: 40px;
+    font-weight: 400;
+}
+.rigthPart .fa-solid {
+    color: gray;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.rigthPart .btn-log{
+    border: none;
+    color: white;
+    background-color: #494c55;
+    border-radius: 4px;
+    width: 6rem;
+    height: 50px;
+    cursor: pointer;
+}
+.rigthPart .btn-sig{
+    border: none;
+    color: white;
+    background-color: #494c55;
+    border-radius: 4px;
+    width: 6rem;
+    height: 50px;
+    cursor: pointer;
+}
+
+/* aqui comienza la seccion central */
+section{    
+    box-shadow: inset -150px 0px 150px 0px rgb(23 23 23);
+    color: white;
+    padding-top: 36px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftSection{
+    padding: 0rem 7rem 0rem 2rem;
+    
+}
+section .leftSection .pContainer .pOne{
+    font-size: 1.8rem;
+    margin: 0px;
+    font-weight: 200;
+} 
+section .leftSection .pContainer .pTwo{
+    font-size: x-large;
+    font-weight: 400;
+    color: #8d8d8d;
+}
+.leftSection .buttonsContainer{
+    display: flex;
+    gap: 15px;
+}
+.leftSection .buttonsContainer .btnSignFree{
+    width: 13rem;
+    height: 4em;
+    border: none;
+    border-radius: 3px;
+    background-color: #46d367;
+}
+.leftSection .buttonsContainer .btnSignFree a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.leftSection .buttonsContainer .btnSignFree a:hover{
+    color: #2a2b2b;
+}
+.leftSection .buttonsContainer .btnLearnMore{
+    width: 10rem;
+    border-radius: 4px;
+    background-color: black;
+}
+.leftSection .buttonsContainer .btnLearnMore a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 27px;
+    transition: 0.5s;
+}
+.leftSection .buttonsContainer .btnLearnMore a:hover{
+    color: #a9a9a9;
+}
+/* section right main */
+section .imgRight p{
+    color:rgb(255, 255, 255);
+    font-size: medium;
+    margin: 4px 8px;
+    z-index: 10;
+}
+section .imgRight p a{
+    text-decoration: none;
+    color: #81dcfb;
+    font-size: medium;
+}
+ section .imgRight img{
+    box-shadow: -4px 45px 40px 28px rgb(0 0 0 / 83%);    
+    width: 40vw;
+}
+
+/* footer */
+footer{
+    box-shadow: 0px -7px 16px -2px rgba(0,0,0,0.75);
+}
+footer .containerFt{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+footer .containerFt a{
+    font-weight: 400;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: white;
+    width: 40em;
+    text-align: center;
+    border: solid 1px rgb(88, 88, 88);
+    background-color: #343539;
+}
+footer .containerFt a strong{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 25px;
+}
